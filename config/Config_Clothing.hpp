@@ -361,7 +361,7 @@ class Clothing {
             { "B_Carryall_cbr", "", 7500, "" }
         };
     };
-
+    
     class kart {
         title = "STR_Shops_C_Kart";
         conditions = "";

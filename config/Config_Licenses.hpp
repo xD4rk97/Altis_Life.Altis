@@ -162,6 +162,14 @@ class Licenses {
         side = "civ";
     };
 
+    class mainRebel {
+      variable = "capoRibelli";
+      displayName = "STR_capoRibelli";
+      price = 300000;
+      illegal = "true";
+      side = "civ";
+    }
+
     //Cop Licenses
     class cAir {
         variable = "cAir";
