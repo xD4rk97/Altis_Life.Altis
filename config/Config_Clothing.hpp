@@ -357,8 +357,6 @@ class Clothing {
         };
     };
 
-
-
     class rebchief {
       title = "STR_Shops_C_Rebel";
       conditions = "license_civ_rebel";

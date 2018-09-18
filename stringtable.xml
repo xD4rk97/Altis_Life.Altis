@@ -11002,7 +11002,7 @@
             <Czech>držení drog</Czech>
             <French>Possession de drogue</French>
             <Spanish>Posesión de Drogas</Spanish>
-            <Italian>possesso di droga</Italian>
+            <Italian>Possesso di droga</Italian>
             <Polish>Posiadanie narkotyków</Polish>
             <Russian></Russian>
             <Portuguese>Posse de Droga</Portuguese>
@@ -11035,7 +11035,7 @@
             <Czech>loupež</Czech>
             <French>Cambriolage</French>
             <Spanish>Robo de Casa</Spanish>
-            <Italian>furto con scasso</Italian>
+            <Italian>Furto con scasso</Italian>
             <Polish>Włamanie</Polish>
             <Russian></Russian>
             <Portuguese>Arrombamento</Portuguese>
@@ -11079,7 +11079,7 @@
             <Czech>Organ Krádež</Czech>
             <French>Vol d'organes</French>
             <Spanish>Robo de Organos</Spanish>
-            <Italian>organo furto</Italian>
+            <Italian>Traffico d'organi</Italian>
             <Polish>Narząd kradzieżą</Polish>
             <Russian></Russian>
             <Portuguese>Roubo de Orgãos</Portuguese>
@@ -11244,7 +11244,7 @@
             <Original>Open carry in city (Legal Weapon)</Original>
             <Czech>open carry ve městě (právní Weapon)</Czech>
             <Spanish>Cargar Arma Abiertamente en la Ciudad (Arma Legal)</Spanish>
-            <Italian>Aprire il trasporto in città (Arma Legale)</Italian>
+            <Italian>Trasporto di armi in vista (Arma Legale)</Italian>
             <Polish>Otwarty Carry w mieście (prawny Weapon)</Polish>
             <Russian></Russian>
             <French>Arme légale visible en ville</French>
@@ -11266,7 +11266,7 @@
             <Original>Illegal clothing</Original>
             <Czech>Nelegální oblečení</Czech>
             <Spanish>Ropa Ilegal</Spanish>
-            <Italian>abbigliamento illegale</Italian>
+            <Italian>Abbigliamento illegale</Italian>
             <Polish>Nielegalna odzież</Polish>
             <Russian></Russian>
             <French>Vêtements illégaux</French>
@@ -11277,7 +11277,7 @@
             <Original>Hiding face (Mask)</Original>
             <Czech>Schovává tvář (Mask)</Czech>
             <Spanish>Ocultar su Cara (Máscara)</Spanish>
-            <Italian>Nascondere faccia (Mask)</Italian>
+            <Italian>Volto nascosto (Maschera)</Italian>
             <Polish>Ukrywając twarz (maska)</Polish>
             <Russian></Russian>
             <French>Cacher son visage</French>
@@ -11288,7 +11288,7 @@
             <Original>Refuses to cooperate</Original>
             <Czech>Odmítá spolupracovat</Czech>
             <Spanish>Reusa a Cooperar</Spanish>
-            <Italian>Si rifiuta di collaborare</Italian>
+            <Italian>Resistenza al pubblico ufficiale</Italian>
             <Polish>Odmawia współpracy</Polish>
             <Russian></Russian>
             <French>Refus d'obtempérer</French>
@@ -11347,7 +11347,7 @@
             <French>Intrusion dans la réserve fédérale</French>
             <Portuguese>Invasão a Reserva Federal</Portuguese>
             <German>Bankeinbruch</German>
-            <Italian>Rapina alla Riserva Federale</Italian>
+            <Italian>Rapina alla Banca Federale</Italian>
             <Polish>Rezerwa Federalna łamanie</Polish>
         </Key>
         <Key ID="STR_Crime_24">
@@ -11369,7 +11369,7 @@
             <French>Meurtre d'un militaire</French>
             <Portuguese>Matou um Policial</Portuguese>
             <German>Töten eines Beamten</German>
-            <Italian>Omicidio di un agente</Italian>
+            <Italian>Omicidio di un pubblico ufficiale</Italian>
             <Polish>Zabijając żołnierza</Polish>
         </Key>
     </Package>
