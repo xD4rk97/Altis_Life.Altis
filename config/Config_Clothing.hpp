@@ -10,6 +10,14 @@
 *                "call life_coplevel && license_civ_someLicense"
 *            This will also let you call any other function.
 *
+  1 Agente
+  2 Agente Scelto
+  3 Assistente
+  4 Assistente Capo
+  5 Sovrintendente
+  6 Sovrintendente Capo
+  7 Ispettore
+  8 Questore
 *   Clothing classnames can be found here: https://community.bistudio.com/wiki/Arma_3_CfgWeapons_Equipment
 *   Backpacks/remaining classnames can be found here (TIP: Search page for "pack"): https://community.bistudio.com/wiki/Arma_3_CfgVehicles_EMPTY
 *
@@ -57,7 +65,6 @@ class Clothing {
             { "H_Cap_oli", "", 150, "" },
             { "H_Cap_red", "", 150, "" },
             { "H_Cap_tan", "", 150, "" },
-            { "H_Helmet_Skate", "", 150, "" }, //Apex DLC
             { "H_Bandanna_gry", "", 150, "" },
             { "H_Bandanna_sgg", "", 160, "" },
             { "H_Bandanna_cbr", "", 165, "" },
@@ -98,28 +105,19 @@ class Clothing {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },
             { "B_OutdoorPack_blk", "", 500, "" },
             { "B_AssaultPack_khk", "", 2000, "" },
-            { "B_AssaultPack_dgtl", "", 2000, "" },
             { "B_AssaultPack_rgr", "", 2000, "" },
             { "B_AssaultPack_sgg", "", 2000, "" },
             { "B_AssaultPack_blk", "", 2000, "" },
             { "B_AssaultPack_cbr", "", 2000, "" },
-            { "B_AssaultPack_mcamo", "", 2000, "" },
             { "B_AssaultPack_tna_f", "", 2000, "" }, //Apex DLC
             { "B_TacticalPack_oli", "", 2500, "" },
-            { "B_Kitbag_mcamo", "", 3500, "" },
             { "B_Kitbag_sgg", "", 3500, "" },
             { "B_Kitbag_cbr", "", 3500, "" },
             { "B_FieldPack_blk", "", 5000, "" },
-            { "B_FieldPack_ocamo", "", 5000, "" },
-            { "B_FieldPack_oucamo", "", 5000, "" },
             { "B_FieldPack_ghex_f", "", 5000, "" }, //Apex DLC
             { "B_Bergen_sgg", "", 6500, "" },
-            { "B_Bergen_mcamo", "", 6500, "" },
             { "B_Bergen_rgr", "", 6500, "" },
             { "B_Bergen_blk", "", 6500, "" },
-            { "B_Carryall_ocamo", "", 7500, "" },
-            { "B_Carryall_oucamo", "", 7500, "" },
-            { "B_Carryall_mcamo", "", 7500, "" },
             { "B_Carryall_oli", "", 7500, "" },
             { "B_Carryall_khk", "", 7500, "" },
             { "B_Carryall_cbr", "", 7500, "" },
@@ -136,9 +134,8 @@ class Clothing {
         uniforms[] = {
             { "NONE", $STR_C_Remove_uniforms, 0, "" },
             { "U_Rangemaster", $STR_C_Cop_uniforms, 25, "" },
-            { "U_B_CombatUniform_mcam_tshirt", "", 350, "call life_coplevel >= 1" },
-            { "U_B_CombatUniform_mcam_worn", "", 550, "call life_coplevel >= 2" },
-            { "U_B_survival_uniform", "", 1250, "call life_coplevel >= 1" }
+            { "U_B_CombatUniform_mcam_tshirt", "", 350, "call life_coplevel >= 3" }, //Maniche corte
+            { "U_B_CombatUniform_mcam_worn", "", 550, "call life_coplevel >= 3" } //Maniche lunghe
         };
         headgear[] = {
             { "NONE", $STR_C_Remove_headgear, 0, "" },
