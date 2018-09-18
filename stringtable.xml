@@ -5154,6 +5154,10 @@
             <Portuguese>Licenças:</Portuguese>
             <Polish>Licencje:</Polish>
         </Key>
+        <Key ID="STR_capoRibelli">
+            <Original>Rebels' Chief</Original>
+            <Italian>Capo dei Ribelli </Italian>
+        </Key>
         <Key ID="STR_Cop_NoLicenses">
             <Original>No Licenses</Original>
             <Czech>žádné licence</Czech>
