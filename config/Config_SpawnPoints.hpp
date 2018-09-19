@@ -23,7 +23,7 @@ class CfgSpawnPoints {
                 displayName = "Athira";
                 spawnMarker = "civ_spawn_3";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-                conditions = "";
+                conditions = "license_civ_rebel || license_civ_mainRebel  ";
             };
 
             class Pyrgos {
