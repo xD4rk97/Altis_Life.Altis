@@ -104,6 +104,7 @@ class CarShops {
         vehicles[] = {
             { "B_Quadbike_01_F", "" },
             { "C_Offroad_01_repair_F", "" },
+            { "C_SUV_01_F", "" },
             { "I_Truck_02_medical_F", "" }
         };
     };
