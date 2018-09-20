@@ -700,6 +700,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "SUV Archer", "civ", {
                 "textures\civ_suv_archer.jpg"
             }, "" },
+            { "SUV BMW", "civ", {
+                "textures\suv_bmw.jpg"
+            }, "" },
             { "SUV Polizia", "cop", {
                 "textures\polizia_suv.jpg"
             }, "" }
