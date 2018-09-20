@@ -525,8 +525,8 @@ class LifeCfgVehicles {
             { "Taxi", "civ", {
                 "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
             }, "" },
-            { "Police", "cop", {
-                "#(ai,64,64,1)Fresnel(1.3,7)"
+            { "Fuoristrada Polizia ", "cop", {
+                "textures\polizia_off.jpg"
             }, "" }
         };
     };
@@ -697,8 +697,11 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Orange", "civ", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa"
             }, "" },
-            { "Police", "cop", {
-                "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa"
+            { "SUV Archer", "civ", {
+                "textures\civ_suv_archer.jpg"
+            }, "" },
+            { "SUV Polizia", "cop", {
+                "textures\polizia_suv.jpg"
             }, "" }
         };
     };
@@ -736,10 +739,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
         conditions = "";
         price = 30000;
         textures[] = {
-            { "Black", "cop", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
-            }, "" }
+            { "Hunter Polizia di Stato", "cop", {
+              "textures\cop_hun.jpg"
+             }, "" }
         };
     };
 
@@ -759,8 +761,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
         conditions = "license_civ_pilot || {license_cop_cAir} || {license_med_mAir}";
         price = 245000;
         textures[] = {
-            { "Police", "cop", {
-                "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_ion_co.paa"
+            { "MH-9 Polizia di Stato", "cop", {
+                "textures\hum_polizia.jpg"
             }, "" },
             { "Sheriff", "civ", {
                 "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_sheriff_co.paa"
@@ -802,7 +804,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
             }, "" },
             { "EMS White", "med", {
-                "#(argb,8,8,3)color(1,1,1,0.8)"
+                "textures\hum_med.jpg"
             }, "" }
         };
     };
@@ -817,8 +819,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
         conditions = "license_civ_pilot || {license_med_mAir} || {(playerSide isEqualTo west)}";
         price = 750000;
         textures[] = {
-            { "Black", "cop", {
-                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa"
+            { "PO-30 Polizia di Stato", "cop", {
+                "textures\police_orc.jpg"
             }, "" },
             { "White / Blue", "civ", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa"
@@ -826,11 +828,11 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Digi Green", "civ", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_indp_co.paa"
             }, "" },
-            { "Desert Digi", "reb", {
-                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
+            { "PO-30 Ribelli", "reb", {
+                "textures\orca_rebel.jpg"
             }, "" },
-            { "EMS White", "med", {
-                "#(argb,8,8,3)color(1,1,1,0.8)"
+            { "PO-30 Elisoccorso", "med", {
+                "textures\med_orc.jpg"
             }, "" }
         };
     };
