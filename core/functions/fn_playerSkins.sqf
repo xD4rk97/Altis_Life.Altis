@@ -49,7 +49,10 @@ switch (playerSide) do {
 
     case independent: {
         if (uniform player isEqualTo "U_Rangemaster") then {
-            player setObjectTextureGlobal [0, "textures\medic_uniform.jpg"];
+            player setObjectTextureGlobal [0, "textures\med_uni.jpg"];
         };
+        if ((backpack player) == "B_Carryall_khk") then {
+			(unitbackpack player) setObjectTextureGlobal [0,"textures\med_bac.jpg"];
+		};
     };
 };

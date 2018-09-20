@@ -526,6 +526,9 @@ class LifeCfgVehicles {
             { "Taxi", "civ", {
                 "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
             }, "" },
+            { "Fuoristrada 118 ", "med", {
+                "textures\pickup_medic.jpg"
+            }, "" },
             { "Fuoristrada Polizia ", "cop", {
                 "textures\polizia_off.jpg"
             }, "" }
@@ -697,6 +700,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
             }, "" },
             { "Orange", "civ", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa"
+            }, "" },
+            { "SUV 118", "med", {
+                "textures\suv_medic.jpg"
             }, "" },
             { "SUV Archer", "civ", {
                 "textures\civ_suv_archer.jpg"

@@ -269,7 +269,7 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },
-            { "B_FieldPack_oli", $STR_C_EMS_backpacks, 5000, "" }
+            { "B_Carryall_khk", $STR_C_EMS_backpacks, 5000, "" }
         };
     };
 
