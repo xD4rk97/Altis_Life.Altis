@@ -268,7 +268,7 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },
-            { "B_Carryall_khk", $STR_C_EMS_backpacks, 5000, "" } 
+            { "B_Carryall_khk", $STR_C_EMS_backpacks, 5000, "" }
         };
     };
 
@@ -358,7 +358,7 @@ class Clothing {
 
     class rebchief {
       title = "STR_Shops_C_Rebel";
-      conditions = "license_civ_rebel";
+      conditions = "license_civ_mainRebel";
       side = "civ";
       uniforms[] = {
           { "NONE", $STR_C_Remove_uniforms, 0, "" },

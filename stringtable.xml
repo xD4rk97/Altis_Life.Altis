@@ -10223,6 +10223,17 @@
             <Portuguese>Loja de Roupas Rebeldes</Portuguese>
             <Polish>Magazyn rebelianta</Polish>
         </Key>
+        <Key ID="STR_MAR_RebelChief_Clothing_Shop">
+            <Original>Rebel Clothing Shop</Original>
+            <Czech>Rebel Oblečení Shop</Czech>
+            <French>Vêtements rebelle</French>
+            <Spanish>Tienda de Ropa Rebelde</Spanish>
+            <Italian>Negozio Abbigliamento Capo Ribelle</Italian>
+            <Russian></Russian>
+            <German>Rebellen Kleidungsgeschäft</German>
+            <Portuguese>Loja de Roupas Rebeldes</Portuguese>
+            <Polish>Magazyn rebelianta</Polish>
+        </Key>
         <Key ID="STR_MAR_Rebel_Weapon_Shop">
             <Original>Rebel Weapon Shop</Original>
             <Czech>Rebel obchodu se zbraněmi</Czech>
