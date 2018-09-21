@@ -119,7 +119,7 @@
             <French>Vêtements de kart</French>
             <Spanish>Tienda de Trajes de Carreras</Spanish>
             <Italian>Vestiario da Pilota </Italian>
-            <Russian></Russian>
+            <Russian>Cyka Blyat</Russian>
             <German>Bobby's Gokart Rennbekleidung</German>
             <Portuguese>Loja de equipamentos para Kart</Portuguese>
             <Polish>Sklep Kartingowy</Polish>
@@ -128,9 +128,9 @@
             <Original>Altis Market</Original>
             <Czech>Altis Market</Czech>
             <Spanish>Mercado de Altis</Spanish>
-            <Russian></Russian>
+            <Russian>Cyka Blyat</Russian>
             <German>Altis Markt</German>
-            <Italian>Mercato</Italian>
+            <Italian>Carrefour</Italian>
             <French>Marché d'Altis</French>
             <Portuguese>Mercado</Portuguese>
             <Polish>Market Altis</Polish>
@@ -174,7 +174,7 @@
             <Spanish>Kiosko de Wong</Spanish>
             <Russian></Russian>
             <German>Wong's Spezialitäten</German>
-            <Italian>Alimentari</Italian>
+            <Italian>Alimentari da Wong</Italian>
             <French>Restaurant de Wong</French>
             <Portuguese>Praça de Alimentação</Portuguese>
             <Polish>Przysmaki Wonga</Polish>
@@ -9722,7 +9722,7 @@
             <Czech>Obchod se smíšeným zbožím</Czech>
             <French>Magasin général</French>
             <Spanish>Tienda General</Spanish>
-            <Italian>Strumenti Generali</Italian>
+            <Italian>Decathlon</Italian>
             <Russian></Russian>
             <German>Supermarkt</German>
             <Portuguese>Loja de Equipamentos</Portuguese>
@@ -10243,7 +10243,18 @@
             <German>Rebellen Waffenhändler</German>
             <Portuguese>Loja de Armas Rebeldes</Portuguese>
             <Polish>Zbrojownia rebelianta</Polish>
-            <Italian>Armeria della Guerriglia</Italian>
+            <Italian>Armeria dei Ribelli</Italian>
+        </Key>
+        <Key ID="STR_MAR_ChiefRebel_Weapon_Shop">
+            <Original>Rebel Weapon Shop</Original>
+            <Czech>Rebel obchodu se zbraněmi</Czech>
+            <French>Armurerie rebelle</French>
+            <Spanish>Tienda de Armas Rebeldes</Spanish>
+            <Russian></Russian>
+            <German>Rebellen Waffenhändler</German>
+            <Portuguese>Loja de Armas Rebeldes</Portuguese>
+            <Polish>Zbrojownia rebelianta</Polish>
+            <Italian>Armeria del Capo Ribelli</Italian>
         </Key>
         <Key ID="STR_MAR_Helicopter_Shop">
             <Original>Helicopter Shop</Original>
@@ -10261,7 +10272,7 @@
             <Czech>Palivo Store Station</Czech>
             <French>Cafet' de Station</French>
             <Spanish>Tienda de Gasolinera</Spanish>
-            <Italian>Stazione di rifornimento Conservare</Italian>
+            <Italian>Negozio Stazione di Servizio</Italian>
             <Russian></Russian>
             <German>Tankstelle</German>
             <Portuguese>Loja de Conveniência</Portuguese>
@@ -10360,7 +10371,7 @@
             <Czech>Cop obchodu se zbraněmi</Czech>
             <French>Armurerie de Police</French>
             <Spanish>Tienda de Armas de Policía</Spanish>
-            <Italian>Armeria da Agenti</Italian>
+            <Italian>Armeria Polizia di Stato</Italian>
             <Russian></Russian>
             <German>Polizei Waffengeschäft</German>
             <Portuguese>Loja de Armas da Polícia</Portuguese>

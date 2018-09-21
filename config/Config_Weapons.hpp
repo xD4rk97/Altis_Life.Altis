@@ -6,7 +6,7 @@
 *            in any combination. For example:
 *                "call life_coplevel && license_civ_someLicense"
 *            This will also let you call any other function.
-*            
+*
 *
 *    ARRAY FORMAT:
 *        0: STRING (Classname): Item Classname
@@ -22,7 +22,7 @@
 class WeaponShops {
     //Armory Shops
     class gun {
-        name = "Billy Joe's Firearms";
+        name = "STR_MAR_Gun_Store";
         side = "civ";
         conditions = "license_civ_gun";
         items[] = {
@@ -30,7 +30,7 @@ class WeaponShops {
             { "hgun_Pistol_01_F", "", 7000, 3500, "" }, //Apex DLC
             { "hgun_Pistol_heavy_02_F", "", 9850, 4925, "" },
             { "hgun_ACPC2_F", "", 11500, 5750, "" },
-            { "SMG_05_F", "", 18000, 9000, "" }, //Apex DLC
+            { "SMG_05_F", "", 30000, 9000, "" }, //Apex DLC
             { "hgun_PDW2000_F", "", 20000, 10000, "" }
         };
         mags[] = {
@@ -42,67 +42,131 @@ class WeaponShops {
             { "10Rnd_9x21_Mag", "", 250, 125, "" } //Apex DLC
         };
         accs[] = {
-            { "optic_ACO_grn_smg", "", 2500, 1250, "" }
+            { "optic_ACO_grn_smg", "", 2500, 1250, "" },
+            { "optic_ACO_smg", "", 2500, 1250, "" }
         };
     };
 
     class rebel {
-        name = "Mohammed's Jihadi Shop";
+        name = "STR_MAR_Rebel_Weapon_Shop";
         side = "civ";
         conditions = "license_civ_rebel";
         items[] = {
+            { "hgun_Rook40_F", "", 6500, 3250, "" },
+            { "hgun_Pistol_heavy_02_F", "", 9850, 4925, "" },
+            { "hgun_ACPC2_F", "", 11500, 5750, "" },
             { "arifle_TRG20_F", "", 25000, 12500, "" },
             { "arifle_Katiba_F", "", 30000, 15000, "" },
-            { "srifle_DMR_01_F", "", 50000, 25000, "" },
             { "arifle_SDAR_F", "", 20000, 10000, "" },
-            { "arifle_AK12_F", "", 22000, 11000, "" }, //Apex DLC
             { "arifle_AKS_F", "", 22000, 11000, "" }, //Apex DLC
-            { "arifle_AKM_F", "", 22000, 11000, "" }, //Apex DLC
-            { "arifle_ARX_blk_F", "", 22000, 11000, "" }, //Apex DLC
-            { "arifle_SPAR_01_blk_F", "", 33000, 16500, "" }, //Apex DLC
-            { "arifle_CTAR_blk_F", "", 30000, 15000, "" } //Apex DLC
+            { "arifle_ARX_hex_F", "", 22000, 11000, "" }, //Apex DLC
+            { "SmokeShell", "", 300, 100, "" },
+            { "SmokeShellBlue", "", 300, 100, "" },
+            { "SmokeShellGreen", "", 300, 100, "" },
+            { "SmokeShellPurple", "", 300, 100, "" },
+            { "SmokeShellRed", "", 300, 100, "" },
+            { "SmokeShellYellow", "", 300, 100, "" }
+
         };
         mags[] = {
-            { "30Rnd_556x45_Stanag", "", 300, 150, "" },
+            { "16Rnd_9x21_Mag", "", 125, 60, "" },
+            { "6Rnd_45ACP_Cylinder", "", 150, 75, "" },
+            { "9Rnd_45ACP_Mag", "", 200, 100, "" },
+            { "hgun_Pistol_01_F", "", 7000, 3500, "" }, //Apex DLC
             { "30Rnd_762x39_Mag_F", "", 300, 150, "" }, //Apex DLC
             { "30Rnd_545x39_Mag_F", "", 300, 150, "" }, //Apex DLC
             { "30Rnd_65x39_caseless_green", "", 275, 140, "" },
-            { "10Rnd_762x54_Mag", "", 500, 250, "" },
             { "20Rnd_556x45_UW_mag", "", 125, 60, "" },
-            { "30Rnd_580x42_Mag_F", "", 125, 60, "" } //Apex DLC
+            { "10Rnd_9x21_Mag", "", 250, 125, "" } //Apex DLC
         };
         accs[] = {
-            { "optic_ACO_grn", "", 3500, 1750, "" },
-            { "optic_Holosight", "", 3600, 1800, "" },
-            { "optic_Hamr", "", 7500, 3750, "" },
+            { "optic_ACO_grn", "", 3500, 1000, "" },
+            { "optic_Holosight", "", 3600, 1500, "" },
+            { "optic_Arco","",5000, 1000, ""},
+            { "optic_MRCO","",5000, 1000, ""},
+            { "optic_Hamr","",5000, 1000, ""},
+            { "optic_ERCO_khk_F", "", 7500, 3750, "" },
             { "acc_flashlight", "", 1000, 500, "" }
         };
     };
 
+    class rebelChief {
+        name = "STR_MAR_ChiefRebel_Weapon_Shop";
+        side = "civ";
+        conditions = "license_civ_capoRibelli";
+        items[] = {
+            { "hgun_Rook40_F", "", 6500, 3250, "" },
+            { "hgun_Pistol_heavy_02_F", "", 9850, 4925, "" },
+            { "hgun_ACPC2_F", "", 11500, 5750, "" },
+            { "arifle_TRG20_F", "", 25000, 12500, "" },
+            { "arifle_Katiba_F", "", 30000, 15000, "" },
+            { "arifle_SDAR_F", "", 20000, 10000, "" },
+            { "arifle_AKS_F", "", 22000, 11000, "" }, //Apex DLC
+            { "arifle_ARX_hex_F", "", 22000, 11000, "" }, //Apex DLC
+            { "srifle_DMR_01_F", "", 22000, 11000, "" },
+            { "SmokeShell", "", 300, 100, "" },
+            { "SmokeShellBlue", "", 300, 100, "" },
+            { "SmokeShellGreen", "", 300, 100, "" },
+            { "SmokeShellPurple", "", 300, 100, "" },
+            { "SmokeShellRed", "", 300, 100, "" },
+            { "SmokeShellYellow", "", 300, 100, "" }
+        };
+        mags[] = {
+          { "16Rnd_9x21_Mag", "", 125, 60, "" },
+          { "6Rnd_45ACP_Cylinder", "", 150, 75, "" },
+          { "9Rnd_45ACP_Mag", "", 200, 100, "" },
+          { "hgun_Pistol_01_F", "", 7000, 3500, "" }, //Apex DLC
+          { "30Rnd_762x39_Mag_F", "", 300, 150, "" }, //Apex DLC
+          { "30Rnd_545x39_Mag_F", "", 300, 150, "" }, //Apex DLC
+          { "30Rnd_65x39_caseless_green", "", 275, 140, "" },
+          { "20Rnd_556x45_UW_mag", "", 125, 60, "" },
+          { "10Rnd_9x21_Mag", "", 250, 125, "" }, //Apex DLC
+          { "10Rnd_762x54_Mag", "", 500, 250, "" }
+
+        };
+        accs[] = {
+          { "optic_ACO_grn", "", 3500, 1000, "" },
+          { "optic_Holosight", "", 3600, 1500, "" },
+          { "optic_Arco","",5000, 1000, ""},
+          { "optic_MRCO","",5000, 1000, ""},
+          { "optic_Hamr","",5000, 1000, ""},
+          { "optic_ERCO_khk_F", "", 7500, 3750, "" },
+          { "acc_flashlight", "", 1000, 500, "" }
+        };
+    };
+
     class gang {
-        name = "Hideout Armament";
+        name = "Armeria Covo Gang";
         side = "civ";
         conditions = "";
         items[] = {
             { "hgun_Rook40_F", "", 1500, 750, "" },
             { "hgun_Pistol_heavy_02_F", "", 2500, 1250, "" },
             { "hgun_ACPC2_F", "", 4500, 2250, "" },
+            { "SMG_01_F", "", 4500, 2250, "" },
+            { "arifle_SDAR_F", "", 20000, 10000, "" },
+            { "SMG_05_F", "", 30000, 9000, "" }, //Apex DLC
             { "hgun_PDW2000_F", "", 9500, 4750, "" }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 125, 60, "" },
             { "6Rnd_45ACP_Cylinder", "", 150, 75, "" },
             { "9Rnd_45ACP_Mag", "", 200, 100, "" },
+            { "30Rnd_45ACP_Mag_SMG_01", "", 250, 125, "" },
+            { "20Rnd_556x45_UW_mag", "", 125, 60, "" },
+            { "30Rnd_9x21_Mag_SMG_02", "", 250, 125, "" }, //Apex DLC
             { "30Rnd_9x21_Mag", "", 250, 125, "" }
         };
         accs[] = {
-            { "optic_ACO_grn_smg", "", 950, 475, "" }
+            { "optic_ACO_smg", "", 950, 475, "" },
+            { "optic_ACO_grn_", "", 3500, 1000, "" },
+            { "optic_Holosight", "", 3600, 1500, "" },
         };
     };
 
     //Basic Shops
     class genstore {
-        name = "Altis General Store";
+        name = "STR_MAR_General_Store";
         side = "civ";
         conditions = "";
         items[] = {
@@ -123,7 +187,7 @@ class WeaponShops {
     };
 
     class f_station_store {
-        name = "Altis Fuel Station Store";
+        name = "STR_MAR_Station_Shop";
         side = "";
         conditions = "";
         items[] = {
@@ -145,7 +209,7 @@ class WeaponShops {
 
     //Cop Shops
     class cop_basic {
-        name = "Altis Cop Shop";
+        name = "STR_MAR_Cop_Weapon_Shop";
         side = "cop";
         conditions = "";
         items[] = {
@@ -153,40 +217,61 @@ class WeaponShops {
             { "ItemGPS", "", 100, 50, "" },
             { "FirstAidKit", "", 150, 75, "" },
             { "NVGoggles", "", 2000, 1000, "" },
-            { "HandGrenade_Stone", $STR_W_items_Flashbang, 1700, 850, "" },
+            { "HandGrenade_Stone", $STR_W_items_Flashbang, 1700, 850, "call life_coplevel >= 2" },
+            { "hgun_Pistol_Signal_F","",3000,1000, ""},
             { "hgun_P07_snds_F", $STR_W_items_StunPistol, 2000, 1000, "" },
-            { "arifle_SDAR_F", $STR_W_items_TaserRifle, 20000, 10000, "" },
+            //{ "arifle_SDAR_F", $STR_W_items_TaserRifle, 20000, 10000, "" },
             { "hgun_P07_F", "", 7500, 3750, "" },
             { "hgun_P07_khk_F", "", 7500, 3750, "" }, //Apex DLC
             { "hgun_Pistol_heavy_01_F", "", 9500, 4750, "call life_coplevel >= 1" },
-            { "SMG_02_ACO_F", "", 30000, 15000, "call life_coplevel >= 2" },
-            { "arifle_MX_F", "", 35000, 17500, "call life_coplevel >= 2" },
             { "hgun_ACPC2_F", "", 17500, 8750, "call life_coplevel >= 3" },
-            { "arifle_MXC_F", "", 30000, 15000, "call life_coplevel >= 3" },
-            { "srifle_DMR_07_blk_F", "", 32000, 16000, "call life_coplevel >= 3" } //Apex DLC Sniper
+            { "SMG_02_F", "", 30000, 15000, "call life_coplevel >= 2" },
+            { "SMG_05_F", "", 30000, 9000, "" }, //Apex DLC
+            { "hgun_PDW2000_F", "", 20000, 10000, "" },
+            { "arifle_MX_Black_F", "", 35000, 17500, "call life_coplevel >= 2" },
+            { "arifle_MXC_Black_F", "", 30000, 15000, "call life_coplevel >= 3" },
+            { "arifle_MXM_Black_F", "", 35000, 17500, "call life_coplevel >= 2" },
+            { "arifle_SPAR_01_blk_F", "", 35000, 17500, "call life_coplevel >= 2" },
+            { "srifle_EBR_FF", "", 35000, 17500, "call life_coplevel >= 2" },
+            { "srifle_DMR_07_blk_F", "", 32000, 16000, "call life_coplevel >= 3" }, //Apex DLC Sniper
+            { "SmokeShell", "", 300, 100, "" },
+            { "SmokeShellBlue", "", 300, 100, "" },
+            { "SmokeShellGreen", "", 300, 100, "" },
+            { "SmokeShellPurple", "", 300, 100, "" },
+            { "SmokeShellRed", "", 300, 100, "" },
+            { "SmokeShellYellow", "", 300, 100, "" }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 125, 60, "" },
+            { "6Rnd_GreenSignal_F", "", 125, 60, "" },
+            { "6Rnd_RedSignal_F", "", 125, 60, "" },
             { "20Rnd_556x45_UW_mag", $STR_W_mags_TaserRifle, 125, 60, "" },
             { "11Rnd_45ACP_Mag", "", 130, 65, "call life_coplevel >= 1" },
             { "30Rnd_65x39_caseless_mag", "", 130, 65, "call life_coplevel >= 2" },
             { "30Rnd_9x21_Mag", "", 250, 125, "call life_coplevel >= 2" },
+            { "20Rnd_762x51_Mag", "", 250, 125, "call life_coplevel >= 2" },
             { "9Rnd_45ACP_Mag", "", 200, 100, "call life_coplevel >= 3" },
+            { "30Rnd_556x45_Stanag", "", 300, 150, "" },
+            { "30Rnd_9x21_Mag_SMG_02", "", 250, 125, "" }, //Apex DLC
             { "20Rnd_650x39_Cased_Mag_F", "", 200, 100, "call life_coplevel >= 3" } //Apex DLC
         };
         accs[] = {
             { "muzzle_snds_L", "", 650, 325, "" },
-            { "optic_MRD", "", 2750, 1375, "call life_coplevel >= 1" },
-            { "acc_flashlight", "", 750, 375, "call life_coplevel >= 2" },
-            { "optic_Holosight", "", 1200, 600, "call life_coplevel >= 2" },
-            { "optic_Arco", "", 2500, 1250, "call life_coplevel >= 2" },
+            { "muzzle_snds_M", "", 650, 325, "" },
+            { "optic_ACO_grn", "", 3500, 1000, "" },
+            { "optic_Holosight", "", 3600, 1500, "" },
+            { "optic_Arco","",5000, 1000, ""},
+            { "optic_MRCO","",5000, 1000, ""},
+            { "optic_Hamr","",5000, 1000, ""},
+            { "optic_ERCO_khk_F", "", 7500, 3750, "" },
+            { "acc_flashlight", "", 1000, 500, "" },
             { "muzzle_snds_H", "", 2750, 1375, "call life_coplevel >= 2" }
         };
     };
 
     //Medic Shops
     class med_basic {
-        name = "store";
+        name = "Attrezzatura Medica";
         side = "med";
         conditions = "";
         items[] = {
