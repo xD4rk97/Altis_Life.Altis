@@ -135,7 +135,6 @@ class Clothing {
             { "NONE", $STR_C_Remove_uniforms, 0, "" },
             { "U_Rangemaster", $STR_C_Cop_uniforms, 25, "" },
             { "U_IG_Guerilla2_1", "", 50, "" },
-            { "U_B_CombatUniform_mcam_tshirt", "", 350, "call life_coplevel >= 3" }, //Maniche corte
             { "U_B_CombatUniform_mcam_worn", "", 550, "call life_coplevel >= 3" } //Maniche lunghe
         };
         headgear[] = {
@@ -269,7 +268,7 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },
-            { "B_Carryall_khk", $STR_C_EMS_backpacks, 5000, "" }
+            { "B_Carryall_khk", $STR_C_EMS_backpacks, 5000, "" } 
         };
     };
 
