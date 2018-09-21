@@ -209,7 +209,7 @@ class WeaponShops {
 
     //Cop Shops
     class cop_basic {
-        name = "STR_MAR_Cop_Weapon_Shop";
+        name = "$STR_MAR_Cop_Weapon_Shop";
         side = "cop";
         conditions = "";
         items[] = {

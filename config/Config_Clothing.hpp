@@ -128,7 +128,7 @@ class Clothing {
     };
 
     class cop {
-        title = "STR_Shops_C_Police";
+        title = $STR_Shops_C_Police;
         conditions = "";
         side = "cop";
         uniforms[] = {
