@@ -24,7 +24,7 @@
 */
 class Clothing {
     class bruce {
-        title = "STR_Shops_C_Bruce";
+        title = "Piazza Italia";
         conditions = "";
         side = "civ";
         uniforms[] = {
@@ -128,7 +128,7 @@ class Clothing {
     };
 
     class cop {
-        title = $STR_Shops_C_Police;
+        title = "Divise Polizia di Stato";
         conditions = "";
         side = "cop";
         uniforms[] = {
@@ -180,7 +180,7 @@ class Clothing {
     };
 
     class dive {
-        title = "STR_Shops_C_Diving";
+        title = "Attrezzatura da Immersione";
         conditions = "license_civ_dive";
         side = "civ";
         uniforms[] = {
@@ -204,7 +204,7 @@ class Clothing {
     };
 
     class gun_clothing {
-        title = "STR_Shops_C_Gun";
+        title = "Abbigliamento Poligono di Tiro";
         conditions = "license_civ_gun";
         side = "civ";
         uniforms[] = {
@@ -226,7 +226,7 @@ class Clothing {
     };
 
     class gang_clothing {
-        title = "STR_Shops_C_Gang";
+        title = "Abbigliamento Gang";
         conditions = "";
         side = "civ";
         uniforms[] = {
@@ -248,7 +248,7 @@ class Clothing {
     };
 
     class med_clothing {
-        title = "STR_MAR_EMS_Clothing_Shop";
+        title = "Divise Operatori Sanitari";
         conditions = "";
         side = "med";
         uniforms[] = {
@@ -273,7 +273,7 @@ class Clothing {
     };
 
     class reb {
-        title = "STR_Shops_C_Rebel";
+        title = "Abbigliamento Ribelli";
         conditions = "license_civ_rebel";
         side = "civ";
         uniforms[] = {
@@ -357,7 +357,7 @@ class Clothing {
     };
 
     class rebchief {
-      title = "STR_Shops_C_Rebel";
+      title = "Abbigliamento Capo Ribelli";
       conditions = "license_civ_capoRibelli";
       side = "civ";
       uniforms[] = {
@@ -421,7 +421,7 @@ class Clothing {
     }
 
     class kart {
-        title = "STR_Shops_C_Kart";
+        title = "Abbigliamento Kart";
         conditions = "";
         side = "civ";
         uniforms[] = {

@@ -22,7 +22,7 @@
 class WeaponShops {
     //Armory Shops
     class gun {
-        name = "STR_MAR_Gun_Store";
+        name = "Armeria";
         side = "civ";
         conditions = "license_civ_gun";
         items[] = {
@@ -48,7 +48,7 @@ class WeaponShops {
     };
 
     class rebel {
-        name = "STR_MAR_Rebel_Weapon_Shop";
+        name = "Armeria Ribelli";
         side = "civ";
         conditions = "license_civ_rebel";
         items[] = {
@@ -91,7 +91,7 @@ class WeaponShops {
     };
 
     class rebelChief {
-        name = "STR_MAR_ChiefRebel_Weapon_Shop";
+        name = "Armeria Capo Ribelli";
         side = "civ";
         conditions = "license_civ_capoRibelli";
         items[] = {
@@ -166,7 +166,7 @@ class WeaponShops {
 
     //Basic Shops
     class genstore {
-        name = "STR_MAR_General_Store";
+        name = "Decathlon";
         side = "civ";
         conditions = "";
         items[] = {
@@ -187,7 +187,7 @@ class WeaponShops {
     };
 
     class f_station_store {
-        name = "STR_MAR_Station_Shop";
+        name = "Negozio Stazione di Servizio";
         side = "";
         conditions = "";
         items[] = {
@@ -209,7 +209,7 @@ class WeaponShops {
 
     //Cop Shops
     class cop_basic {
-        name = "$STR_MAR_Cop_Weapon_Shop";
+        name = "Armeria Polzia di Stato";
         side = "cop";
         conditions = "";
         items[] = {
@@ -233,7 +233,7 @@ class WeaponShops {
             { "arifle_MXM_Black_F", "", 35000, 17500, "call life_coplevel >= 2" },
             { "arifle_SPAR_01_blk_F", "", 35000, 17500, "call life_coplevel >= 2" },
             { "srifle_EBR_FF", "", 35000, 17500, "call life_coplevel >= 2" },
-            { "srifle_DMR_07_blk_F", "", 32000, 16000, "call life_coplevel >= 3" }, //Apex DLC Sniper
+          //  { "srifle_DMR_07_blk_F", "", 32000, 16000, "call life_coplevel >= 3" }, //Apex DLC Sniper
             { "SmokeShell", "", 300, 100, "" },
             { "SmokeShellBlue", "", 300, 100, "" },
             { "SmokeShellGreen", "", 300, 100, "" },
@@ -252,8 +252,8 @@ class WeaponShops {
             { "20Rnd_762x51_Mag", "", 250, 125, "call life_coplevel >= 2" },
             { "9Rnd_45ACP_Mag", "", 200, 100, "call life_coplevel >= 3" },
             { "30Rnd_556x45_Stanag", "", 300, 150, "" },
-            { "30Rnd_9x21_Mag_SMG_02", "", 250, 125, "" }, //Apex DLC
-            { "20Rnd_650x39_Cased_Mag_F", "", 200, 100, "call life_coplevel >= 3" } //Apex DLC
+            { "30Rnd_9x21_Mag_SMG_02", "", 250, 125, "" } //Apex DLC
+          //  { "20Rnd_650x39_Cased_Mag_F", "", 200, 100, "call life_coplevel >= 3" } //Apex DLC
         };
         accs[] = {
             { "muzzle_snds_L", "", 650, 325, "" },
