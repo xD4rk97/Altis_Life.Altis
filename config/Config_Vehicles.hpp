@@ -747,7 +747,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class B_MRAP_01_F {
         vItemSpace = 65;
         conditions = "";
-        price = 30000;
+        price = 200000;
         textures[] = {
             { "Hunter Polizia di Stato", "cop", {
               "textures\cop_hun.jpg"
@@ -766,10 +766,31 @@ will modify the virtual space and the price of the vehicle, but other informatio
         };
     };
 
+    class B_T_VTOL_01_infantry_F {
+      vItemSpace = 90;
+      conditions = "{license_cop_cAir}";
+      price = 500000;
+      textures[] = {};
+    };
+
+    class B_Heli_Transport_03_unarmed_F {
+      vItemSpace = 90;
+      conditions = "{license_cop_cAir}";
+      price = 300000;
+      textures[] = {};
+    };
+
+    class B_Heli_Transport_01_F {
+      vItemSpace = 90;
+      conditions = "{license_cop_cAir}";
+      price = 200000;
+      textures[] = {};
+    };
+
     class B_Heli_Light_01_F {
         vItemSpace = 90;
         conditions = "license_civ_pilot || {license_cop_cAir} || {license_med_mAir}";
-        price = 245000;
+        price = 80000;
         textures[] = {
             { "MH-9 Polizia di Stato", "cop", {
                 "textures\hum_polizia.jpg"
@@ -827,7 +848,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class O_Heli_Light_02_unarmed_F {
         vItemSpace = 210;
         conditions = "license_civ_pilot || {license_med_mAir} || {(playerSide isEqualTo west)}";
-        price = 750000;
+        price = 150000;
         textures[] = {
             { "PO-30 Polizia di Stato", "cop", {
                 "textures\police_orc.jpg"
