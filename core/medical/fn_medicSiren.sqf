@@ -18,6 +18,6 @@ for "_i" from 0 to 1 step 0 do {
     if (!alive _vehicle) exitWith {};
     if (isNull _vehicle) exitWith {};
     _vehicle say3D "medicSiren";//Class name specified in description.ext
-    sleep 4.275;//Exactly matches the length of the audio file.
+    sleep 3.097;//Exactly matches the length of the audio file.
     if (!(_vehicle getVariable "siren")) exitWith {};
 };
