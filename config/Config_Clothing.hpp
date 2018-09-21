@@ -358,7 +358,7 @@ class Clothing {
 
     class rebchief {
       title = "STR_Shops_C_Rebel";
-      conditions = "license_civ_mainRebel";
+      conditions = "license_civ_capoRibelli";
       side = "civ";
       uniforms[] = {
           { "NONE", $STR_C_Remove_uniforms, 0, "" },
