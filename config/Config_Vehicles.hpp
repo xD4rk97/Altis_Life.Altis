@@ -103,7 +103,7 @@ class CarShops {
         conditions = "";
         vehicles[] = {
             { "B_Quadbike_01_F", "" },
-            { "C_Offroad_01_repair_F", "" },
+            { "C_Offroad_01_F", "" },
             { "C_SUV_01_F", "" },
             { "I_Truck_02_medical_F", "" }
         };
@@ -777,13 +777,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
       vItemSpace = 90;
       conditions = "{license_cop_cAir}";
       price = 300000;
-      textures[] = {};
-    };
-
-    class B_Heli_Transport_01_F {
-      vItemSpace = 90;
-      conditions = "{license_cop_cAir}";
-      price = 200000;
       textures[] = {};
     };
 
