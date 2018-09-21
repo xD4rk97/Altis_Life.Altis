@@ -15,7 +15,7 @@ _lightBlue = [0.1, 0.1, 20];
 
 _lightleft = "#lightpoint" createVehicle getPos _vehicle;
 sleep 0.2;
-_lightleft setLightColor _lightRed;
+_lightleft setLightColor _lightBlue;
 _lightleft setLightBrightness 0.2;
 _lightleft setLightAmbient [0.1,0.1,1];
 
