@@ -838,6 +838,12 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 245000;
     };
 
+    class I_Heli_Transport_02_F {
+      vItemSpace = 300;
+      price = 2000000;
+    };
+
+
     class O_Heli_Light_02_unarmed_F {
         vItemSpace = 210;
         conditions = "license_civ_pilot || {license_med_mAir} || {(playerSide isEqualTo west)}";

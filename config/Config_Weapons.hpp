@@ -52,6 +52,8 @@ class WeaponShops {
         side = "civ";
         conditions = "license_civ_rebel";
         items[] = {
+            { "FirstAidKit", "", 150, 75, "" },
+            { "NVGoggles", "", 2000, 1000, "" },
             { "hgun_Rook40_F", "", 6500, 3250, "" },
             { "hgun_Pistol_heavy_02_F", "", 9850, 4925, "" },
             { "hgun_ACPC2_F", "", 11500, 5750, "" },
@@ -95,6 +97,8 @@ class WeaponShops {
         side = "civ";
         conditions = "license_civ_capoRibelli";
         items[] = {
+            { "FirstAidKit", "", 150, 75, "" },
+            { "NVGoggles", "", 2000, 1000, "" },
             { "hgun_Rook40_F", "", 6500, 3250, "" },
             { "hgun_Pistol_heavy_02_F", "", 9850, 4925, "" },
             { "hgun_ACPC2_F", "", 11500, 5750, "" },
@@ -232,7 +236,7 @@ class WeaponShops {
             { "arifle_MXC_Black_F", "", 30000, 15000, "call life_coplevel >= 3" },
             { "arifle_MXM_Black_F", "", 35000, 17500, "call life_coplevel >= 2" },
             { "arifle_SPAR_01_blk_F", "", 35000, 17500, "call life_coplevel >= 2" },
-            { "srifle_EBR_FF", "", 35000, 17500, "call life_coplevel >= 2" },
+            { "srifle_EBR_F", "", 35000, 17500, "call life_coplevel >= 2" },
           //  { "srifle_DMR_07_blk_F", "", 32000, 16000, "call life_coplevel >= 3" }, //Apex DLC Sniper
             { "SmokeShell", "", 300, 100, "" },
             { "SmokeShellBlue", "", 300, 100, "" },
