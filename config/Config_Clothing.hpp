@@ -171,11 +171,12 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },
-            { "B_FieldPack_blk", "", 500, "" },
+            { "B_LegStrapBag_black_F", "", 500, "" },
+            { "B_ViperLightHarness_blk_F", "", 500, "" },
             { "B_AssaultPack_blk", "", 500, "" },
-            { "B_Kitbag_blk", "", 500, "" },
-            { "B_Bergen_blk", "", 500, "" },
-            { "B_Carryall_blk", "", 500, "" }
+            { "B_FieldPack_blk", "", 500, "" },
+            { "B_Carryall_cbr", "", 500, "" },
+            { "B_TacticalPack_blk", "", 500, "" }
         };
     };
 

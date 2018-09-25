@@ -23,7 +23,7 @@ player setVariable ["transporting",false,true];
 
 titleText[localize "STR_Jail_Warn","PLAIN"];
 hint localize "STR_Jail_LicenseNOTF";
-player setPos [getMarkerPos "jail_marker" select 0, getMarkerPos "jail_marker" select 1,1];
+player setPos [getMarkerPos "jail_marker" select 0, getMarkerPos "jail_marker" select 1,2];
 
 if (_bad) then {
     waitUntil {alive player};
@@ -32,7 +32,7 @@ if (_bad) then {
 
 //Check to make sure they goto check
 if (player distance (getMarkerPos "jail_marker") > 40) then {
-    player setPos [getMarkerPos "jail_marker" select 0, getMarkerPos "jail_marker" select 1,1];
+    player setPos [getMarkerPos "jail_marker" select 0, getMarkerPos "jail_marker" select 1,2];
 };
 
 [1] call life_fnc_removeLicenses;

@@ -136,7 +136,7 @@ class CarShops {
         vehicles[] = {
             { "B_Heli_Light_01_F", "" },
             { "O_Heli_Light_02_unarmed_F", "" },
-            { "B_T_VTOL_01_infantry_F", "call life_coplevel >= 5" },
+            { "O_Heli_Transport_04_F", "call life_coplevel >= 5" },
             { "B_Heli_Transport_03_unarmed_F", "call life_coplevel >= 3" },
             { "B_Heli_Transport_01_F", "call life_coplevel >= 4" }
         };
@@ -747,12 +747,19 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class B_MRAP_01_F {
         vItemSpace = 65;
         conditions = "";
-        price = 200000;
+        price = 250000;
         textures[] = {
             { "Hunter Polizia di Stato", "cop", {
               "textures\cop_hun.jpg"
              }, "" }
         };
+    };
+    
+    class B_T_LSV_01_unarmed_F {
+        vItemSpace = 70;
+        conditions = "";
+        price = 250000;
+        textures[] = {};
     };
 
      class B_Heli_Light_01_stripped_F {
@@ -766,10 +773,10 @@ will modify the virtual space and the price of the vehicle, but other informatio
         };
     };
 
-    class B_T_VTOL_01_infantry_F {
+    class O_Heli_Transport_04_F {
       vItemSpace = 90;
       conditions = "{license_cop_cAir}";
-      price = 500000;
+      price = 300000;
       textures[] = {};
     };
 
