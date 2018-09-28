@@ -4,7 +4,7 @@
 
     Description:
     Called upon first spawn selection and welcomes our player.
-*/
+
 disableSerialization;
 [
         "",
@@ -48,3 +48,4 @@ _textSpoiler ctrlSetFade 1;
 _textSpoiler ctrlCommit 0;
 _text2 ctrlSetFade 1;
 _text2 ctrlCommit 0;
+*/
