@@ -36,10 +36,10 @@ switch (playerSide) do {
     };
 
  case west: {
-			if(uniform player isEqualTo "U_Rangemaster") then {
+			if(uniform player == "U_Rangemaster") then {
 				player setObjectTextureGlobal [0, "textures\cop_uniform.jpg"];
 			};
-			if ((FETCH_CONST(life_coplevel) >= 3) && (uniform player isEqualTo "U_B_CombatUniform_mcam_worn")) then {
+			if ((FETCH_CONST(life_coplevel) >= 3) && ((uniform player) == "U_B_CombatUniform_mcam_worn")) then {
 				player setObjectTextureGlobal [0, "textures\cop_uniform_1.jpg"];
 			};
 

@@ -65,7 +65,7 @@ switch (typeOf _vehicle) do
          {
              _lightleft lightAttachObject [_vehicle, [-0.5, 0.0, 0.81]];
           };
-          case "B_T_LSV_01_unarmed_F" :
+          case "B_T_LSV_01_unarmed_F":
           {
             _lightleft lightAttachObject [_vehicle, [-0.35,-0.2,0.25]];
           };
@@ -130,10 +130,11 @@ switch (typeOf _vehicle) do
        {
            _lightright lightAttachObject [_vehicle, [0.5, 0.0, 0.81]];
         };
-          case "B_T_LSV_01_unarmed_F" :
-          {
-            _lightright lightAttachObject [_vehicle, [0.35,-0.2,0.25]];
-          };
+
+      case "B_T_LSV_01_unarmed_F":
+        {
+          _lightright lightAttachObject [_vehicle, [0.35,-0.2,0.25]];
+        };
 
 };
 

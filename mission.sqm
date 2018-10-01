@@ -5,7 +5,7 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=138;
+	toggles=10;
 	class ItemIDProvider
 	{
 		nextID=5141;
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14309.314,105.31093,13005.342};
-		dir[]={-0.38213685,-0.85030496,0.3618775};
-		up[]={-0.61739993,0.5262875,0.58466768};
-		aside[]={0.68759859,2.8801151e-007,0.72609252};
+		pos[]={8573.126,138.33266,25107.895};
+		dir[]={0.019653572,-0.70291018,0.71107137};
+		up[]={0.01942084,0.71122646,0.70268762};
+		aside[]={0.99966246,-2.245215e-007,-0.027630053};
 	};
 };
 binarizationWanted=0;
@@ -492,24 +492,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -524,6 +506,24 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
 				};
 			};
 		};
@@ -10212,11 +10212,34 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_1";
-						description="WhiteListed Slot - Cop 1";
+						description="WhiteListed - Cop 1";
 						isPlayable=1;
 					};
 					id=769;
 					type="B_RangeMaster_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item1
 				{
@@ -10232,11 +10255,34 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_2";
-						description="WhiteListed Slot - Cop 2";
+						description="WhiteListed - Cop 2";
 						isPlayable=1;
 					};
 					id=770;
 					type="B_RangeMaster_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item2
 				{
@@ -10252,11 +10298,34 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_3";
-						description="WhiteListed Slot - Cop 3";
+						description="WhiteListed - Cop 3";
 						isPlayable=1;
 					};
 					id=771;
 					type="B_RangeMaster_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item3
 				{
@@ -10272,11 +10341,34 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_4";
-						description="WhiteListed Slot - Cop 4";
+						description="WhiteListed - Cop 4";
 						isPlayable=1;
 					};
 					id=772;
 					type="B_RangeMaster_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
@@ -18031,7 +18123,6 @@ class Mission
 						angles[]={0,0.53849125,6.2823396};
 					};
 					side="Civilian";
-					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -18040,7 +18131,7 @@ class Mission
 					};
 					id=1020;
 					type="C_man_1";
-					atlOffset=1.9073486e-006;
+					atlOffset=0.5116539;
 					class CustomAttributes
 					{
 						class Attribute0

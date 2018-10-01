@@ -96,6 +96,15 @@ switch (_code) do {
         };
     };
 
+    if (_code in (actionKeys "MoveForward")) then
+  	{
+  		if (!isNull life_sitting) then
+  		{
+  			[] execVM "..\standup.sqf";
+  			_handled = true;
+  		};
+  	};
+
     //Holster / recall weapon. (Shift + H)
     case 35: {
         if (_shift && !_ctrlKey && !(currentWeapon player isEqualTo "")) then {

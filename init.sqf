@@ -1,9 +1,9 @@
 /*
     File: init.sqf
-    Author: 
-    
+    Author:
+
     Description:
-    
+
 */
 StartProgress = false;
 
@@ -11,10 +11,19 @@ if(isDedicated && isNil("life_market_prices")) then
 {
 [] call life_fnc_marketconfiguration;
 diag_log "Market prices generated!";
- 
+
 "life_market_prices" addPublicVariableEventHandler
 {
 diag_log format["Market prices updated! %1", _this select 1];
+};
+
+MAC_fnc_switchMove = {
+    private["_object","_anim"];
+    _object = _this select 0;
+    _anim = _this select 1;
+
+    _object switchMove _anim;
+
 };
 
 //Start server fsm
